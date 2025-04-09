@@ -10,7 +10,7 @@ conexao = mysql.connector.connect(
 )
 cursor = conexao.cursor()
 
-
+#Produto a ser atualizado
 nome_produto = "chocolate"
 valor = 5
 
